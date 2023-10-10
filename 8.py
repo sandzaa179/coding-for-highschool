@@ -1,0 +1,11 @@
+sum, n, i= 0,0,0
+while n>=0:
+    n = float(input("Enter a positive number : "))
+    sum = sum+n
+    i = i+1
+sum = sum - n
+i = i-1
+avg = sum/i
+print("Sum of all positive = ", sum)
+print("Total of number = ", i)
+print("Average = ", avh)
